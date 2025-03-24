@@ -26,11 +26,12 @@ form{
 form h1 {
     margin: auto;
     margin-bottom: 20px;
-}
+    color: rgba(11,23,23,255);
+    }
 form input {
     padding: 10px;
     margin: 20px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
     border: none;
     border-radius: 10px;
     border-bottom: 1px solid #c0a793;
@@ -39,8 +40,9 @@ form input {
 }
 #signup:hover {
     cursor: pointer;
-    background: linear-gradient(to  right , rgb(59, 142, 197) , rgb(216, 88, 109));;
+    background: #c0a793;
 }
+
 #signup{
     margin-bottom: 50px;
 }
@@ -51,5 +53,5 @@ span {
 }
 span a {
     text-decoration: none;
-    color: rgb(66, 136, 216);
+    color: #c0a793;
 }
