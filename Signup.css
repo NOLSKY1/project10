@@ -38,13 +38,11 @@ form input {
     outline: none;
     cursor: pointer;
 }
-#signup:hover {
-    cursor: pointer;
-    background: #c0a793;
-}
+
 
 #signup{
     margin-bottom: 50px;
+    background: #c0a793;
 }
 span {
     margin: auto;
