@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(11,23,23,255);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    
+    
+}
+form h1 {
+    margin: auto;
+    margin-bottom: 20px;
+}
+form input {
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #c0a793;
+    outline: none;
+    cursor: pointer;
+}
+#signup:hover {
+    cursor: pointer;
+    background: linear-gradient(to  right , rgb(59, 142, 197) , rgb(216, 88, 109));;
+}
+#signup{
+    margin-bottom: 50px;
+}
+span {
+    margin: auto;
+    color: gray;
+
+}
+span a {
+    text-decoration: none;
+    color: rgb(66, 136, 216);
+}
